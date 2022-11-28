@@ -1,0 +1,32 @@
+.socialNetworks {
+  display: flex;
+  gap: 3vw;
+
+  &Item {
+    margin-top: 5px;
+  }
+  &Link {
+    color: white;
+    text-indent: -1234em;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    &:visited,
+    &:hover {
+      color: white;
+    }
+  }
+  &DisCord {
+    background-image: url("./icons/game_icon.svg");
+  }
+  &Twitter {
+    background-image: url("./icons/twitter_icon.svg");
+    background-size: 90% auto;
+  }
+  &AntDesign {
+    background-image: url("./icons/ant-design-icon.svg");
+  }
+}

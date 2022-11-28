@@ -1,0 +1,23 @@
+.logo {
+  a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-indent: -123rem;
+    background: url("./img/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 10.4rem;
+    height: 1.3rem;
+    transition: opacity 0.3s;
+
+    & :visited,
+    & :hover {
+      color: white;
+    }
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
