@@ -3,14 +3,13 @@ import s from "./Button.module.scss";
 import { ReactNode } from "react";
 interface ButtonProps {
   children: ReactNode;
+  onClick: () => void;
 }
 
-export const Button: React.FC<ButtonProps> = ({}) => {
+export const Button: React.FC<ButtonProps> = ({ onClick, children }) => {
   return (
-    <ul>
-      <li>
-        <Link href="">Dusktopia</Link>
-      </li>
-    </ul>
+    <button className={s.button} onClick={onClick}>
+      {children}
+    </button>
   );
 };

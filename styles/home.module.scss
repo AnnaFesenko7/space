@@ -1,9 +1,31 @@
 .section {
   height: 100vh;
+  padding: 2.8571rem;
+  min-height: 35.7143rem;
   &Main {
     background-image: url("../public/img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7.1429rem;
+    padding-bottom: 7.1429rem;
   }
+}
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 2.2857rem;
+  position: absolute;
+  top: 2.1429rem;
+  left: 3.5714rem;
+  right: 3.5714rem;
+}
+.btnList {
+  display: flex;
+  justify-content: center;
+  gap: 1.4286rem;
 }

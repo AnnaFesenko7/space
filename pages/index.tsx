@@ -8,21 +8,22 @@ import { Button } from "../components/Button/Button";
 export default function Home() {
   return (
     <div>
+      <header className={s.header}>
+        <Logo />
+
+        <SocialNetworks />
+        <Button onClick={() => {}}>Whitepaper</Button>
+      </header>
       <section className={cl(s.section, s.sectionMain)}>
-        <header>
-          <Logo />
-          <SocialNetworks />
-          {/* <Button onClick={() => {}}>Whitepaper</Button> */}
-        </header>
         {/* <Navigation /> */}
         <div>
-          <Title>FROM DUSK TO DAWN</Title>
-          <ul>
+          <Title>FROM DUSK TO&nbsp;DAWN</Title>
+          <ul className={s.btnList}>
             <li>
-              <Button>Mint</Button>
+              <Button onClick={() => {}}>Mint</Button>
             </li>
             <li>
-              <Button>Connect Wallet</Button>
+              <Button onClick={() => {}}>Connect Wallet</Button>
             </li>
           </ul>
         </div>

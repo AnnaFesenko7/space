@@ -1,8 +1,14 @@
 .title {
+  font-family: TTOctosquares;
+  line-height: 1.3;
+  font-weight: 400;
+  letter-spacing: 0.365em;
+  text-align: center;
   &Medium {
-    font-size: 66px;
+    font-size: 4.7143rem;
+    margin-bottom: 1.4286rem;
   }
   &Large {
-    font-size: 80px;
+    font-size: 5.7143rem;
   }
 }
